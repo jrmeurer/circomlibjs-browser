@@ -8,7 +8,8 @@
     "poseidonOptimizeConstants": "node tools/poseidon_optimize_constants.js",
     "build:cjs": "yarn rollup -c config/rollup.config.js",
     "build:iife": "rollup -c config/rollup.iife.js",
-    "build:min": "rollup -c config/rollup.min.js"
+    "build:min": "rollup -c config/rollup.min.js",
+    "build:umd": "rollup -c config/rollup.umd.js"
   },
   "repository": {
     "type": "git",
